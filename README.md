@@ -16,9 +16,9 @@ Modern institutions rely on outdated, intrusive systems (e.g., sign-in sheets, c
 
 ## 🚀 Features
 
-- 🔍 **Signal-Based Detection**: Detects presence via MAC address, WiFi/Bluetooth signal mapping, and optional heart rate/motion data.
+- 🔍 **Signal-Based Detection**: Detects presence via MAC address(eventually IMEI), WiFi/Bluetooth signal mapping, and optional heart rate/motion data.
 - 📉 **Auto Log-Out**: Automatically logs users out after 60 minutes of absence.
-- 💓 **Heart Rate + Motion Integration**: Uses wearable data or device sensors (future: mmWave, UWB) for improved identity matching.
+- 💓 **Heart Rate + Motion Integration**: Uses ambient signal inference (e.g. WiFi multipath, mmWave, UWB) to detect motion and physiological patterns — no wearables required.
 - 📋 **Real-Time Presence Logs**: Frontend displays user session, motion status, and inferred vitals.
 - 🧭 **Consent-Based Web App**: User-initiated opt-in flow, legal compliance, and full transparency.
 - 🔐 **No Facial Recognition, No Cameras Required** (camera integration is optional for calibration only).
